@@ -4,10 +4,10 @@ platform :ios, '9.0'
 use_frameworks!
 inhibit_all_warnings!
 
-target :SearchDisplayController do
+target :SearchController do
 end
 
-target :SearchDisplayControllerTests do
+target :SearchControllerTests do
   pod 'Quick'
   pod 'Nimble'
 end

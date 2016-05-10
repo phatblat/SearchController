@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		4AC89174253AB6E6AA90BAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC365B0CF2635FF7D64EA6F4 /* Main.storyboard */; };
 		4DC2606C80C1E8CC23455636 /* Pods_SearchDisplayController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8AB214DAE56E5648906649 /* Pods_SearchDisplayController.framework */; };
+		53194EAE9658B76BAD218B76 /* Pods_SearchController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD754464513D75243CD9311 /* Pods_SearchController.framework */; };
 		61C0ECE3E064F06EBAD02C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC68D99FB4CCB52A83409C9 /* Foundation.framework */; };
 		7138120CF272FE6DE675C532 /* Pods_SearchDisplayControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38113884700767F1BE193EC4 /* Pods_SearchDisplayControllerTests.framework */; };
+		802B3FBF3382B99D21ABE642 /* Pods_SearchControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA2CCA57441DCD116E8246E /* Pods_SearchControllerTests.framework */; };
 		ACC5897A2FC98AE2ED1D4954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6965ACFCDBB764E618F4B5E9 /* LaunchScreen.storyboard */; };
 		C13E813C1966BFE3CC2C1447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E4AB9D4AAAF1D62445A6D5 /* Images.xcassets */; };
 		D5CA8B7716C915DD1216E7AA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D812CE7428B867AE3E0B7AD5 /* Settings.bundle */; };
@@ -35,14 +37,20 @@
 		2D5679AF3B8ECF920D357642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38113884700767F1BE193EC4 /* Pods_SearchDisplayControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDisplayControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F5F7384789175575A4465D /* Pods-SearchDisplayControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDisplayControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchDisplayControllerTests/Pods-SearchDisplayControllerTests.release.xcconfig"; sourceTree = "<group>"; };
-		440498BA090DBA5371D4B8FF /* SearchDisplayControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchDisplayControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440498BA090DBA5371D4B8FF /* SearchController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE8303FE587933D2A2E81E1 /* Pods-SearchController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchController/Pods-SearchController.release.xcconfig"; sourceTree = "<group>"; };
 		6965ACFCDBB764E618F4B5E9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D112D456623EBE6BED8E991 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98579CC3F1D9F42C6365AEFA /* Pods-SearchDisplayController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDisplayController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchDisplayController/Pods-SearchDisplayController.debug.xcconfig"; sourceTree = "<group>"; };
+		9B35B0A50C5C7F8221B5CDF1 /* Pods-SearchControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchControllerTests/Pods-SearchControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEA2CCA57441DCD116E8246E /* Pods_SearchControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D812CE7428B867AE3E0B7AD5 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D9D179AC1BAB505FE74C1BBA /* Pods-SearchControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchControllerTests/Pods-SearchControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9EB4B51574AD5C38FAE1BC2 /* Pods-SearchController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchController/Pods-SearchController.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD754464513D75243CD9311 /* Pods_SearchController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8AB214DAE56E5648906649 /* Pods_SearchDisplayController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDisplayController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA45F04761E9CDE56F27C9 /* Pods-SearchDisplayController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDisplayController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchDisplayController/Pods-SearchDisplayController.release.xcconfig"; sourceTree = "<group>"; };
-		F0E10F155C471EE0F523CC80 /* SearchDisplayController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDisplayController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E10F155C471EE0F523CC80 /* SearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC365B0CF2635FF7D64EA6F4 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7138120CF272FE6DE675C532 /* Pods_SearchDisplayControllerTests.framework in Frameworks */,
+				802B3FBF3382B99D21ABE642 /* Pods_SearchControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,19 +70,13 @@
 			files = (
 				61C0ECE3E064F06EBAD02C87 /* Foundation.framework in Frameworks */,
 				4DC2606C80C1E8CC23455636 /* Pods_SearchDisplayController.framework in Frameworks */,
+				53194EAE9658B76BAD218B76 /* Pods_SearchController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		057EE32998FB1183799CBA4D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		138410DD43938DC47FFBF9A6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,43 +84,45 @@
 				98579CC3F1D9F42C6365AEFA /* Pods-SearchDisplayController.debug.xcconfig */,
 				43F5F7384789175575A4465D /* Pods-SearchDisplayControllerTests.release.xcconfig */,
 				28A06052A14AC159E62C4310 /* Pods-SearchDisplayControllerTests.debug.xcconfig */,
+				5EE8303FE587933D2A2E81E1 /* Pods-SearchController.release.xcconfig */,
+				E9EB4B51574AD5C38FAE1BC2 /* Pods-SearchController.debug.xcconfig */,
+				D9D179AC1BAB505FE74C1BBA /* Pods-SearchControllerTests.release.xcconfig */,
+				9B35B0A50C5C7F8221B5CDF1 /* Pods-SearchControllerTests.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2D9E6757E47E663E67AC8665 /* SearchDisplayControllerTests */ = {
+		2D9E6757E47E663E67AC8665 /* SearchControllerTests */ = {
 			isa = PBXGroup;
 			children = (
 				381EBE313A55C1495C89FDDB /* Helpers */,
 				A102042F8F27D7571204CDBF /* Tests */,
 				8F0A7B8D575C9A667311AD71 /* Supporting Files */,
 			);
-			path = SearchDisplayControllerTests;
+			path = SearchControllerTests;
 			sourceTree = "<group>";
 		};
 		2E1635DB5DCAFAD27B605978 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0E10F155C471EE0F523CC80 /* SearchDisplayController.app */,
-				440498BA090DBA5371D4B8FF /* SearchDisplayControllerTests.xctest */,
+				F0E10F155C471EE0F523CC80 /* SearchController.app */,
+				440498BA090DBA5371D4B8FF /* SearchController.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		336BD9435B58573225E4789C /* SearchDisplayController */ = {
+		336BD9435B58573225E4789C /* SearchController */ = {
 			isa = PBXGroup;
 			children = (
 				1EBFE0DF80BCA63661961413 /* AppDelegate.swift */,
 				C694C73949EC4BB5A9B354D4 /* Extensions */,
 				4B384CD94DBEC4C2E20DCD1E /* Protocols */,
 				57EE45E3D368C522405802E7 /* Models */,
-				55AA0FC4AAB3AEF261F30997 /* ViewModels */,
 				E72274916F038935D0166F03 /* Controllers */,
-				057EE32998FB1183799CBA4D /* Views */,
 				58A759AD6778F27CE1E27FCC /* Resources */,
 				F115D0D74380F22EA568E0D4 /* Supporting Files */,
 			);
-			path = SearchDisplayController;
+			path = SearchController;
 			sourceTree = "<group>";
 		};
 		36F607550C5F45017DD23386 /* Storyboards */ = {
@@ -151,13 +156,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		55AA0FC4AAB3AEF261F30997 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		57EE45E3D368C522405802E7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,8 +184,8 @@
 		90396853B5489D6FB432FC70 = {
 			isa = PBXGroup;
 			children = (
-				336BD9435B58573225E4789C /* SearchDisplayController */,
-				2D9E6757E47E663E67AC8665 /* SearchDisplayControllerTests */,
+				336BD9435B58573225E4789C /* SearchController */,
+				2D9E6757E47E663E67AC8665 /* SearchControllerTests */,
 				EC684D65AF5DBAD8992856FF /* Frameworks */,
 				2E1635DB5DCAFAD27B605978 /* Products */,
 				138410DD43938DC47FFBF9A6 /* Pods */,
@@ -224,6 +222,8 @@
 				54ECE37CCE44A65C122EB316 /* iOS */,
 				EC8AB214DAE56E5648906649 /* Pods_SearchDisplayController.framework */,
 				38113884700767F1BE193EC4 /* Pods_SearchDisplayControllerTests.framework */,
+				EAD754464513D75243CD9311 /* Pods_SearchController.framework */,
+				BEA2CCA57441DCD116E8246E /* Pods_SearchControllerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -239,9 +239,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30BF40AED5C5D6A029F3778D /* SearchDisplayController */ = {
+		30BF40AED5C5D6A029F3778D /* SearchController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F01A8749F3850E9B87D2DA1 /* Build configuration list for PBXNativeTarget "SearchDisplayController" */;
+			buildConfigurationList = 3F01A8749F3850E9B87D2DA1 /* Build configuration list for PBXNativeTarget "SearchController" */;
 			buildPhases = (
 				CCBB608152C1F737FE975278 /* 📦 Check Pods Manifest.lock */,
 				4C4997990AFDB0F8A972846B /* Sources */,
@@ -256,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = SearchDisplayController;
+			name = SearchController;
 			productName = SearchDisplayController;
-			productReference = F0E10F155C471EE0F523CC80 /* SearchDisplayController.app */;
+			productReference = F0E10F155C471EE0F523CC80 /* SearchController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78246A916E55CA6AAAE55AED /* SearchDisplayControllerTests */ = {
+		78246A916E55CA6AAAE55AED /* SearchControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38F4F65249EB8AE8D20AF31E /* Build configuration list for PBXNativeTarget "SearchDisplayControllerTests" */;
+			buildConfigurationList = 38F4F65249EB8AE8D20AF31E /* Build configuration list for PBXNativeTarget "SearchControllerTests" */;
 			buildPhases = (
 				02ADF5270EC94EDA342F9654 /* 📦 Check Pods Manifest.lock */,
 				7C60FA08390E42C1486A7E5F /* Sources */,
@@ -277,9 +277,9 @@
 			dependencies = (
 				ECBCE6441CE7DE00FACFA9DB /* PBXTargetDependency */,
 			);
-			name = SearchDisplayControllerTests;
+			name = SearchControllerTests;
 			productName = SearchDisplayControllerTests;
-			productReference = 440498BA090DBA5371D4B8FF /* SearchDisplayControllerTests.xctest */;
+			productReference = 440498BA090DBA5371D4B8FF /* SearchController.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -293,7 +293,7 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Ben Chatelain";
 			};
-			buildConfigurationList = 2C7A9A3817EE6FEDF9690F0F /* Build configuration list for PBXProject "SearchDisplayController" */;
+			buildConfigurationList = 2C7A9A3817EE6FEDF9690F0F /* Build configuration list for PBXProject "SearchController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -305,8 +305,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30BF40AED5C5D6A029F3778D /* SearchDisplayController */,
-				78246A916E55CA6AAAE55AED /* SearchDisplayControllerTests */,
+				30BF40AED5C5D6A029F3778D /* SearchController */,
+				78246A916E55CA6AAAE55AED /* SearchControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,7 +360,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchDisplayController/Pods-SearchDisplayController-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchController/Pods-SearchController-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		22E875DA29247213E8CE6D74 /* 📦 Copy Pods Resources */ = {
@@ -375,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchDisplayControllerTests/Pods-SearchDisplayControllerTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchControllerTests/Pods-SearchControllerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4556BA3DD4336A071A937634 /* 📦 Embed Pods Frameworks */ = {
@@ -390,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchDisplayController/Pods-SearchDisplayController-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchController/Pods-SearchController-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7FA5F6C5136B015714675507 /* Set version number */ = {
@@ -419,7 +419,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchDisplayControllerTests/Pods-SearchDisplayControllerTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchControllerTests/Pods-SearchControllerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCBB608152C1F737FE975278 /* 📦 Check Pods Manifest.lock */ = {
@@ -475,7 +475,7 @@
 		ECBCE6441CE7DE00FACFA9DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SearchDisplayController;
-			target = 30BF40AED5C5D6A029F3778D /* SearchDisplayController */;
+			target = 30BF40AED5C5D6A029F3778D /* SearchController */;
 			targetProxy = 971214FC5DE280457302234C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,18 +483,18 @@
 /* Begin XCBuildConfiguration section */
 		04C5FC02D8DFC5263CA9BEB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28A06052A14AC159E62C4310 /* Pods-SearchDisplayControllerTests.debug.xcconfig */;
+			baseConfigurationReference = 9B35B0A50C5C7F8221B5CDF1 /* Pods-SearchControllerTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchDisplayController.app/SearchDisplayController";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchController.app/SearchController";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = "SearchDisplayControllerTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SearchControllerTests/Supporting Files/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -504,34 +504,34 @@
 		};
 		0FD6512E2D5D5187EE08D530 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECCA45F04761E9CDE56F27C9 /* Pods-SearchDisplayController.release.xcconfig */;
+			baseConfigurationReference = 5EE8303FE587933D2A2E81E1 /* Pods-SearchController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "SearchDisplayController/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SearchController/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchController;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		B92F2C3E0AEA20F59FCC6A0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F5F7384789175575A4465D /* Pods-SearchDisplayControllerTests.release.xcconfig */;
+			baseConfigurationReference = D9D179AC1BAB505FE74C1BBA /* Pods-SearchControllerTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchDisplayController.app/SearchDisplayController";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchController.app/SearchController";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = "SearchDisplayControllerTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SearchControllerTests/Supporting Files/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -648,16 +648,16 @@
 		};
 		D4C5E3D66E603AE8A25B49FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98579CC3F1D9F42C6365AEFA /* Pods-SearchDisplayController.debug.xcconfig */;
+			baseConfigurationReference = E9EB4B51574AD5C38FAE1BC2 /* Pods-SearchController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "SearchDisplayController/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "SearchController/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchController;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -665,7 +665,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C7A9A3817EE6FEDF9690F0F /* Build configuration list for PBXProject "SearchDisplayController" */ = {
+		2C7A9A3817EE6FEDF9690F0F /* Build configuration list for PBXProject "SearchController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C81E21B2CFB82C9CF4A38CB0 /* Debug */,
@@ -674,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38F4F65249EB8AE8D20AF31E /* Build configuration list for PBXNativeTarget "SearchDisplayControllerTests" */ = {
+		38F4F65249EB8AE8D20AF31E /* Build configuration list for PBXNativeTarget "SearchControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B92F2C3E0AEA20F59FCC6A0F /* Release */,
@@ -683,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F01A8749F3850E9B87D2DA1 /* Build configuration list for PBXNativeTarget "SearchDisplayController" */ = {
+		3F01A8749F3850E9B87D2DA1 /* Build configuration list for PBXNativeTarget "SearchController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FD6512E2D5D5187EE08D530 /* Release */,

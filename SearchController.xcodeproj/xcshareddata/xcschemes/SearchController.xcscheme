@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "30BF40AED5C5D6A029F3778D"
-               BuildableName = "SearchDisplayController.app"
-               BlueprintName = "SearchDisplayController"
-               ReferencedContainer = "container:SearchDisplayController.xcodeproj">
+               BuildableName = "SearchController.app"
+               BlueprintName = "SearchController"
+               ReferencedContainer = "container:SearchController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "78246A916E55CA6AAAE55AED"
-               BuildableName = "SearchDisplayControllerTests.xctest"
-               BlueprintName = "SearchDisplayControllerTests"
-               ReferencedContainer = "container:SearchDisplayController.xcodeproj">
+               BuildableName = "SearchController.xctest"
+               BlueprintName = "SearchControllerTests"
+               ReferencedContainer = "container:SearchController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "30BF40AED5C5D6A029F3778D"
-            BuildableName = "SearchDisplayController.app"
-            BlueprintName = "SearchDisplayController"
-            ReferencedContainer = "container:SearchDisplayController.xcodeproj">
+            BuildableName = "SearchController.app"
+            BlueprintName = "SearchController"
+            ReferencedContainer = "container:SearchController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "30BF40AED5C5D6A029F3778D"
-            BuildableName = "SearchDisplayController.app"
-            BlueprintName = "SearchDisplayController"
-            ReferencedContainer = "container:SearchDisplayController.xcodeproj">
+            BuildableName = "SearchController.app"
+            BlueprintName = "SearchController"
+            ReferencedContainer = "container:SearchController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "30BF40AED5C5D6A029F3778D"
-            BuildableName = "SearchDisplayController.app"
-            BlueprintName = "SearchDisplayController"
-            ReferencedContainer = "container:SearchDisplayController.xcodeproj">
+            BuildableName = "SearchController.app"
+            BlueprintName = "SearchController"
+            ReferencedContainer = "container:SearchController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

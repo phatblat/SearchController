@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SearchDisplayController
+//  SearchController
 //
 //  Created by Ben Chatelain on 5/9/16
 //  Copyright (c) 2016 Ben Chatelain. All rights reserved.
