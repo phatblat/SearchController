@@ -11,6 +11,7 @@ import UIKit
 class SearchResultsTableViewController: UITableViewController {
     lazy var data: [SwiftKeyword] = SwiftKeyword.allValues
     var filteredData: [SwiftKeyword] = []
+    var mainViewController: MainViewController?
 }
 
 extension SearchResultsTableViewController {
@@ -45,4 +46,13 @@ extension SearchResultsTableViewController {
         cell.textLabel!.text = filteredData[indexPath.row].rawValue
         return cell
     }
+}
+
+// MARK: - UITableViewDelegate
+extension SearchResultsTableViewController {
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        mainViewController?.showKeyword(filteredData[indexPath.row])
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    }
+
 }

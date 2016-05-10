@@ -16,6 +16,7 @@ class MainViewController: UIViewController {
         guard let vc = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewControllerWithIdentifier("SearchResultsTableViewController")
             as? SearchResultsTableViewController else { fatalError("Unable to instantiate SearchResultsTableViewController from storyboard") }
+        vc.mainViewController = self
         return vc
     }()
 
@@ -42,6 +43,13 @@ class MainViewController: UIViewController {
         searchController.searchBar.sizeToFit()
 
         definesPresentationContext = true
+    }
+}
+
+extension MainViewController {
+    func showKeyword(keyword: SwiftKeyword) {
+        keywordLabel.text = keyword.rawValue
+        searchController.active = false
     }
 }
 
