@@ -9,12 +9,37 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    @IBOutlet private var searchBar: UISearchBar!
-    @IBOutlet var keywordLabel: UILabel!
+    @IBOutlet private var searchBarContainerView: UIView!
+    @IBOutlet private var keywordLabel: UILabel!
+
+    lazy var searchController: UISearchController = {
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchResultsUpdater = self
+
+        searchController.hidesNavigationBarDuringPresentation = true
+        searchController.dimsBackgroundDuringPresentation = false
+
+        searchController.searchBar.scopeButtonTitles = ["Short", "Medium", "Long"]
+        searchController.searchBar.delegate = self
+
+        return searchController
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         keywordLabel.text = "Select a Keyword"
+
+        searchController.searchBar.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
+        searchBarContainerView.addSubview(searchController.searchBar)
+        searchController.searchBar.sizeToFit()
+    }
+}
+
+// MARK: - UISearchResultsUpdating
+extension MainViewController: UISearchResultsUpdating {
+    func updateSearchResultsForSearchController(searchController: UISearchController) {
+        debugPrint("updateSearchResultsForSearchController")
     }
 }
 
