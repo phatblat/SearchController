@@ -12,8 +12,15 @@ class MainViewController: UIViewController {
     @IBOutlet private var searchBarContainerView: UIView!
     @IBOutlet private var keywordLabel: UILabel!
 
+    lazy var searchResultsController: SearchResultsTableViewController = {
+        guard let vc = UIStoryboard(name: "Main", bundle: nil)
+            .instantiateViewControllerWithIdentifier("SearchResultsTableViewController")
+            as? SearchResultsTableViewController else { fatalError("Unable to instantiate SearchResultsTableViewController from storyboard") }
+        return vc
+    }()
+
     lazy var searchController: UISearchController = {
-        let searchController = UISearchController(searchResultsController: nil)
+        let searchController = UISearchController(searchResultsController: self.searchResultsController)
         searchController.searchResultsUpdater = self
 
         searchController.hidesNavigationBarDuringPresentation = true
@@ -33,6 +40,8 @@ class MainViewController: UIViewController {
         searchController.searchBar.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
         searchBarContainerView.addSubview(searchController.searchBar)
         searchController.searchBar.sizeToFit()
+
+        definesPresentationContext = true
     }
 }
 
@@ -40,6 +49,9 @@ class MainViewController: UIViewController {
 extension MainViewController: UISearchResultsUpdating {
     func updateSearchResultsForSearchController(searchController: UISearchController) {
         debugPrint("updateSearchResultsForSearchController")
+
+        guard let searchTerm = searchController.searchBar.text else { return }
+        searchResultsController.filterData(searchTerm)
     }
 }
 

@@ -1,12 +1,12 @@
 //
-//  SwiftKeywords.swift
+//  SwiftKeyword.swift
 //  SearchController
 //
 //  Created by Ben Chatelain on 5/9/16.
 //  Copyright © 2016 Ben Chatelain. All rights reserved.
 //
 
-enum SwiftKeywords: String {
+enum SwiftKeyword: String {
     case `associativity`
     case `break`
     case `case`
@@ -123,3 +123,9 @@ enum SwiftKeywords: String {
         `willSet`
     ]
 }
+
+//extension SwiftKeyword: CustomStringConvertible {
+//    var description: String {
+//        return String(self)
+//    }
+//}

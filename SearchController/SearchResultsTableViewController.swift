@@ -1,0 +1,44 @@
+//
+//  SearchResultsTableViewController.swift
+//  SearchController
+//
+//  Created by Ben Chatelain on 5/9/16.
+//  Copyright © 2016 Ben Chatelain. All rights reserved.
+//
+
+import UIKit
+
+class SearchResultsTableViewController: UITableViewController {
+    lazy var data: [SwiftKeyword] = SwiftKeyword.allValues
+    var filteredData: [SwiftKeyword] = []
+}
+
+extension SearchResultsTableViewController {
+    func filterData(searchTerm: String) {
+        guard searchTerm.characters.count > 0 else {
+            filteredData = data
+            return
+        }
+
+        filteredData = data.filter { keyword -> Bool in
+            keyword.rawValue.rangeOfString(searchTerm.lowercaseString) != nil
+        }
+    }
+}
+
+// MARK: - UITableViewDataSource
+extension SearchResultsTableViewController {
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return filteredData.count
+    }
+
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .Default, reuseIdentifier: "Keyword")
+        cell.textLabel!.text = filteredData[indexPath.row].rawValue
+        return cell
+    }
+}
