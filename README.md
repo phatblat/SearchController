@@ -1,4 +1,4 @@
-# SearchDisplayController
+# SearchController
 
 [![Language Swift 2](https://img.shields.io/badge/Language-Swift%202-orange.svg)](https://developer.apple.com/swift)
 
@@ -30,4 +30,4 @@ Ben Chatelain, [@phatblat](https://twitter.com/phatblat)
 
 ## License
 
-SearchDisplayController is released under the [MIT License](http://opensource.org/licenses/MIT). See the [LICENSE](LICENSE.md) file for details.
+SearchController is released under the [MIT License](http://opensource.org/licenses/MIT). See the [LICENSE](LICENSE.md) file for details.
