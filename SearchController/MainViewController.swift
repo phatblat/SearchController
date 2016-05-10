@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
         searchController.hidesNavigationBarDuringPresentation = true
         searchController.dimsBackgroundDuringPresentation = false
 
-        searchController.searchBar.scopeButtonTitles = ["Short", "Medium", "Long"]
+//        searchController.searchBar.scopeButtonTitles = ["Short", "Medium", "Long"]
         searchController.searchBar.delegate = self
 
         return searchController
