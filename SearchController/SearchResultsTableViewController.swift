@@ -15,7 +15,11 @@ class SearchResultsTableViewController: UITableViewController {
 
 extension SearchResultsTableViewController {
     func filterData(searchTerm: String) {
-        guard searchTerm.characters.count > 0 else {
+        defer { tableView.reloadData() }
+
+        let count = searchTerm.characters.count
+        debugPrint("searchTerm: \(searchTerm), count: \(count)")
+        guard count > 0 else {
             filteredData = data
             return
         }
