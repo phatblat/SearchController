@@ -15,19 +15,25 @@ class SearchResultsTableViewController: UITableViewController {
 }
 
 extension SearchResultsTableViewController {
-    func filterData(searchTerm: String) {
+    /// Filters the results with the given search term.
+    ///
+    /// - parameter searchTerm: String to use for filtering.
+    ///
+    /// - returns: Number of results displayed.
+    func filterData(searchTerm: String) -> Int {
         defer { tableView.reloadData() }
 
         let count = searchTerm.characters.count
         debugPrint("searchTerm: \(searchTerm), count: \(count)")
         guard count > 0 else {
             filteredData = data
-            return
+            return data.count
         }
 
         filteredData = data.filter { keyword -> Bool in
             keyword.rawValue.rangeOfString(searchTerm.lowercaseString) != nil
         }
+        return filteredData.count
     }
 }
 
@@ -38,6 +44,7 @@ extension SearchResultsTableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        tableView.hidden = filteredData.count == 0 ? true : false
         return filteredData.count
     }
 

@@ -29,19 +29,40 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJF-aK-QFx" userLabel="Empty Results View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3i-C2-A2z">
+                                        <rect key="frame" x="111" y="314" width="153" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Q3i-C2-A2z" firstAttribute="centerY" secondItem="IJF-aK-QFx" secondAttribute="centerY" id="iqS-IY-J11"/>
+                                    <constraint firstItem="Q3i-C2-A2z" firstAttribute="centerX" secondItem="IJF-aK-QFx" secondAttribute="centerX" id="tGz-vk-XHO"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IJF-aK-QFx" secondAttribute="bottom" id="0rB-nX-Q9n"/>
                             <constraint firstItem="m0U-no-9uf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7GO-2u-AsG"/>
+                            <constraint firstItem="IJF-aK-QFx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EJD-7k-gwR"/>
+                            <constraint firstItem="IJF-aK-QFx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MNG-sb-sLQ"/>
                             <constraint firstItem="0ML-pP-NB7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TVy-S2-SDL"/>
                             <constraint firstItem="0ML-pP-NB7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="XUV-DQ-JqA"/>
                             <constraint firstItem="m0U-no-9uf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aHF-Yg-ShC"/>
                             <constraint firstAttribute="trailing" secondItem="0ML-pP-NB7" secondAttribute="trailing" id="tUb-Rt-SQE"/>
+                            <constraint firstAttribute="trailing" secondItem="IJF-aK-QFx" secondAttribute="trailing" id="vHD-bh-Jt3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="R8o-7d-mcv"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="emptyResultsView" destination="IJF-aK-QFx" id="6fp-dR-YjO"/>
                         <outlet property="keywordLabel" destination="m0U-no-9uf" id="Ov5-qN-vdP"/>
                         <outlet property="searchBarContainerView" destination="0ML-pP-NB7" id="sCk-BZ-vwz"/>
                     </connections>

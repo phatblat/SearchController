@@ -11,6 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
     @IBOutlet private var searchBarContainerView: UIView!
     @IBOutlet private var keywordLabel: UILabel!
+    @IBOutlet private var emptyResultsView: UIView!
 
     lazy var searchResultsController: SearchResultsTableViewController = {
         guard let vc = UIStoryboard(name: "Main", bundle: nil)
@@ -59,7 +60,13 @@ extension MainViewController: UISearchResultsUpdating {
         debugPrint("updateSearchResultsForSearchController")
 
         guard let searchTerm = searchController.searchBar.text else { return }
-        searchResultsController.filterData(searchTerm)
+        let displayedResults = searchResultsController.filterData(searchTerm)
+        handleEmptyResults(displayedResults)
+    }
+
+    func handleEmptyResults(displayedResults: Int) {
+        let showEmptyResultsView = searchController.active && displayedResults == 0
+        emptyResultsView.hidden = !showEmptyResultsView
     }
 }
 
