@@ -23,17 +23,26 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Pzp-lb-FMD"/>
                                 </connections>
                             </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keyword" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0U-no-9uf">
+                                <rect key="frame" x="126" y="201" width="124" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="EsA-K9-Qfm" secondAttribute="trailing" id="B01-iF-fQC"/>
                             <constraint firstItem="EsA-K9-Qfm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vgg-Jq-eDv"/>
+                            <constraint firstItem="m0U-no-9uf" firstAttribute="top" secondItem="EsA-K9-Qfm" secondAttribute="bottom" constant="93" id="a50-HQ-JYg"/>
+                            <constraint firstItem="m0U-no-9uf" firstAttribute="centerX" secondItem="EsA-K9-Qfm" secondAttribute="centerX" id="m64-eV-jRS"/>
                             <constraint firstItem="EsA-K9-Qfm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yuY-gA-WHJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="R8o-7d-mcv"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="keywordLabel" destination="m0U-no-9uf" id="Ov5-qN-vdP"/>
                         <outlet property="searchBar" destination="EsA-K9-Qfm" id="kzs-Vg-zfZ"/>
                     </connections>
                 </viewController>

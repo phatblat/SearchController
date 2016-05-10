@@ -10,6 +10,12 @@ import UIKit
 
 class MainViewController: UIViewController {
     @IBOutlet private var searchBar: UISearchBar!
+    @IBOutlet var keywordLabel: UILabel!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        keywordLabel.text = "Select a Keyword"
+    }
 }
 
 // MARK: - UISearchBarDelegate
