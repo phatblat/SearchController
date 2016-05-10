@@ -115,10 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				1EBFE0DF80BCA63661961413 /* AppDelegate.swift */,
-				C694C73949EC4BB5A9B354D4 /* Extensions */,
-				4B384CD94DBEC4C2E20DCD1E /* Protocols */,
-				57EE45E3D368C522405802E7 /* Models */,
-				E72274916F038935D0166F03 /* Controllers */,
 				58A759AD6778F27CE1E27FCC /* Resources */,
 				F115D0D74380F22EA568E0D4 /* Supporting Files */,
 			);
@@ -141,26 +137,12 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		4B384CD94DBEC4C2E20DCD1E /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		54ECE37CCE44A65C122EB316 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				1CC68D99FB4CCB52A83409C9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		57EE45E3D368C522405802E7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		58A759AD6778F27CE1E27FCC /* Resources */ = {
@@ -200,20 +182,6 @@
 			children = (
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		C694C73949EC4BB5A9B354D4 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		E72274916F038935D0166F03 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		EC684D65AF5DBAD8992856FF /* Frameworks */ = {
