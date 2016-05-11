@@ -9,7 +9,7 @@
 import UIKit
 
 /// The "main" screen of the app which shows the current keyword selection with
-/// a search bar above it.
+/// a search bar above it. Also shows the "empty results" view.
 class MainViewController: UIViewController {
     @IBOutlet private var searchBarContainerView: UIView!
     @IBOutlet private var keywordLabel: UILabel!
@@ -26,6 +26,7 @@ class MainViewController: UIViewController {
     lazy var searchController: UISearchController = {
         let searchController = UISearchController(searchResultsController: self.searchResultsController)
         searchController.searchResultsUpdater = self
+        searchController.delegate = self
 
         searchController.hidesNavigationBarDuringPresentation = true
         searchController.dimsBackgroundDuringPresentation = false
@@ -66,12 +67,12 @@ extension MainViewController: UISearchResultsUpdating {
         debugPrint("updateSearchResultsForSearchController")
 
         guard let searchTerm = searchController.searchBar.text else { return }
-        let displayedResults = searchResultsController.filterData(searchTerm)
-        handleEmptyResults(displayedResults)
+        let displayedResultCount = searchResultsController.filterData(searchTerm)
+        handleEmptyResults(displayedResultCount)
     }
 
     func handleEmptyResults(displayedResults: Int) {
-        let showEmptyResultsView = searchController.active && displayedResults == 0
+        let showEmptyResultsView = (searchController.active && displayedResults == 0)
         emptyResultsView.hidden = !showEmptyResultsView
     }
 }
