@@ -14,6 +14,7 @@
 		ACC5897A2FC98AE2ED1D4954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6965ACFCDBB764E618F4B5E9 /* LaunchScreen.storyboard */; };
 		C13E813C1966BFE3CC2C1447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E4AB9D4AAAF1D62445A6D5 /* Images.xcassets */; };
 		D5CA8B7716C915DD1216E7AA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D812CE7428B867AE3E0B7AD5 /* Settings.bundle */; };
+		F820AD471CE2C60400736B41 /* MainViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F820AD461CE2C60400736B41 /* MainViewControllerSpec.swift */; };
 		F85CB7791CE18E7300EB95AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CB7781CE18E7300EB95AB /* MainViewController.swift */; };
 		F88497661CE1940B00734B17 /* SwiftKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88497651CE1940B00734B17 /* SwiftKeyword.swift */; };
 		F88497681CE19CD100734B17 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88497671CE19CD100734B17 /* SearchResultsTableViewController.swift */; };
@@ -38,7 +39,7 @@
 		2D5679AF3B8ECF920D357642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38113884700767F1BE193EC4 /* Pods_SearchDisplayControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDisplayControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F5F7384789175575A4465D /* Pods-SearchDisplayControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDisplayControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchDisplayControllerTests/Pods-SearchDisplayControllerTests.release.xcconfig"; sourceTree = "<group>"; };
-		440498BA090DBA5371D4B8FF /* SearchController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440498BA090DBA5371D4B8FF /* SearchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE8303FE587933D2A2E81E1 /* Pods-SearchController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchController/Pods-SearchController.release.xcconfig"; sourceTree = "<group>"; };
 		6965ACFCDBB764E618F4B5E9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D112D456623EBE6BED8E991 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		EC8AB214DAE56E5648906649 /* Pods_SearchDisplayController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDisplayController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA45F04761E9CDE56F27C9 /* Pods-SearchDisplayController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDisplayController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchDisplayController/Pods-SearchDisplayController.release.xcconfig"; sourceTree = "<group>"; };
 		F0E10F155C471EE0F523CC80 /* SearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F820AD461CE2C60400736B41 /* MainViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerSpec.swift; sourceTree = "<group>"; };
 		F85CB7781CE18E7300EB95AB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F88497651CE1940B00734B17 /* SwiftKeyword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftKeyword.swift; sourceTree = "<group>"; };
 		F88497671CE19CD100734B17 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				F0E10F155C471EE0F523CC80 /* SearchController.app */,
-				440498BA090DBA5371D4B8FF /* SearchController.xctest */,
+				440498BA090DBA5371D4B8FF /* SearchControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +187,7 @@
 		A102042F8F27D7571204CDBF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F820AD461CE2C60400736B41 /* MainViewControllerSpec.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -252,7 +255,7 @@
 			);
 			name = SearchControllerTests;
 			productName = SearchDisplayControllerTests;
-			productReference = 440498BA090DBA5371D4B8FF /* SearchController.xctest */;
+			productReference = 440498BA090DBA5371D4B8FF /* SearchControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +265,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Ben Chatelain";
 			};
@@ -442,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F820AD471CE2C60400736B41 /* MainViewControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +466,7 @@
 			baseConfigurationReference = 9B35B0A50C5C7F8221B5CDF1 /* Pods-SearchControllerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchController.app/SearchController";
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -469,10 +474,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "SearchControllerTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = SearchController;
+				PRODUCT_NAME = SearchControllerTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -499,6 +506,7 @@
 			baseConfigurationReference = D9D179AC1BAB505FE74C1BBA /* Pods-SearchControllerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchController.app/SearchController";
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -506,8 +514,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "SearchControllerTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "at.phatbl.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = SearchController;
+				PRODUCT_NAME = SearchControllerTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";

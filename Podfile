@@ -10,6 +10,7 @@ end
 target :SearchControllerTests do
   pod 'Quick'
   pod 'Nimble'
+  pod 'Outlets'
 end
 
 
@@ -26,4 +27,3 @@ post_install do | installer |
     FileUtils.cp_r(pods_acknowledgements_path, "#{settings_bundle_path}/Acknowledgements.plist", :remove_destination => true)
   end
 end
-
