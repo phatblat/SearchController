@@ -39,9 +39,13 @@ class MainViewController: UIViewController {
 
         keywordLabel.text = "Select a Keyword"
 
-        searchController.searchBar.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
-        searchBarContainerView.addSubview(searchController.searchBar)
-        searchController.searchBar.sizeToFit()
+        let searchBar = searchController.searchBar
+        searchBar.autocapitalizationType = .None
+        searchBar.autocorrectionType = .No
+        searchBar.spellCheckingType = .No
+        searchBar.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
+        searchBarContainerView.addSubview(searchBar)
+        searchBar.sizeToFit()
 
         definesPresentationContext = true
     }
