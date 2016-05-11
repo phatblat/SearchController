@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Shows a list of Swift keywords presented while searching.
 class SearchResultsTableViewController: UITableViewController {
     lazy var data: [SwiftKeyword] = SwiftKeyword.allValues
     var filteredData: [SwiftKeyword] = []

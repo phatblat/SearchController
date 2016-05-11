@@ -6,6 +6,9 @@
 //  Copyright © 2016 Ben Chatelain. All rights reserved.
 //
 
+/// List of reserved Swift keywords, surrounded with backticks so that they can
+/// be used as enum member values.
+/// https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-NoLink_29
 enum SwiftKeyword: String {
     case `associativity`
     case `break`
@@ -89,7 +92,7 @@ enum SwiftKeyword: String {
         `if`,
         `in`,
         `infix`,
-//        `init`,
+        // `init`,
         `inout`,
         `internal`,
         `lazy`,
@@ -123,9 +126,3 @@ enum SwiftKeyword: String {
         `willSet`
     ]
 }
-
-//extension SwiftKeyword: CustomStringConvertible {
-//    var description: String {
-//        return String(self)
-//    }
-//}

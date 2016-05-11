@@ -8,6 +8,8 @@
 
 import UIKit
 
+/// The "main" screen of the app which shows the current keyword selection with
+/// a search bar above it.
 class MainViewController: UIViewController {
     @IBOutlet private var searchBarContainerView: UIView!
     @IBOutlet private var keywordLabel: UILabel!
