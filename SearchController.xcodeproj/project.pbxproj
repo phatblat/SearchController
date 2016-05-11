@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4AC89174253AB6E6AA90BAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC365B0CF2635FF7D64EA6F4 /* Main.storyboard */; };
-		4DC2606C80C1E8CC23455636 /* Pods_SearchDisplayController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8AB214DAE56E5648906649 /* Pods_SearchDisplayController.framework */; };
 		53194EAE9658B76BAD218B76 /* Pods_SearchController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD754464513D75243CD9311 /* Pods_SearchController.framework */; };
 		61C0ECE3E064F06EBAD02C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC68D99FB4CCB52A83409C9 /* Foundation.framework */; };
-		7138120CF272FE6DE675C532 /* Pods_SearchDisplayControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38113884700767F1BE193EC4 /* Pods_SearchDisplayControllerTests.framework */; };
 		802B3FBF3382B99D21ABE642 /* Pods_SearchControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA2CCA57441DCD116E8246E /* Pods_SearchControllerTests.framework */; };
 		ACC5897A2FC98AE2ED1D4954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6965ACFCDBB764E618F4B5E9 /* LaunchScreen.storyboard */; };
 		C13E813C1966BFE3CC2C1447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E4AB9D4AAAF1D62445A6D5 /* Images.xcassets */; };
@@ -65,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7138120CF272FE6DE675C532 /* Pods_SearchDisplayControllerTests.framework in Frameworks */,
 				802B3FBF3382B99D21ABE642 /* Pods_SearchControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +72,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				61C0ECE3E064F06EBAD02C87 /* Foundation.framework in Frameworks */,
-				4DC2606C80C1E8CC23455636 /* Pods_SearchDisplayController.framework in Frameworks */,
 				53194EAE9658B76BAD218B76 /* Pods_SearchController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
