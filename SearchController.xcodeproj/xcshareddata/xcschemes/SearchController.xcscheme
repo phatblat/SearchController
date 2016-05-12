@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "78246A916E55CA6AAAE55AED"
-               BuildableName = "SearchController.xctest"
+               BuildableName = "SearchControllerTests.xctest"
                BlueprintName = "SearchControllerTests"
                ReferencedContainer = "container:SearchController.xcodeproj">
             </BuildableReference>
