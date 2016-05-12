@@ -46,7 +46,7 @@ class MainViewController: UIViewController {
         searchBar.autocapitalizationType = .None
         searchBar.autocorrectionType = .No
         searchBar.spellCheckingType = .No
-        searchBar.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
+        searchBar.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         searchBarContainerView.addSubview(searchBar)
         searchBar.sizeToFit()
 
