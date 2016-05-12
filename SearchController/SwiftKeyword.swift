@@ -34,7 +34,6 @@ enum SwiftKeyword: String {
     case `if`
     case `in`
     case `infix`
-    //case `init`
     case `inout`
     case `internal`
     case `lazy`
@@ -92,7 +91,6 @@ enum SwiftKeyword: String {
         `if`,
         `in`,
         `infix`,
-        // `init`,
         `inout`,
         `internal`,
         `lazy`,
